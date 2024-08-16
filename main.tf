@@ -34,4 +34,11 @@ module "vpc" {
   }
 }
 
+module "s3" {
+  source            = "./modules/S3"
+}
+
+module "dynamodb" {
+  source            = "./modules/DynamoDB"
+}
 
