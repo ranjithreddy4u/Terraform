@@ -42,3 +42,7 @@ module "dynamodb" {
   source            = "./modules/DynamoDB"
 }
 
+module "iam" {
+  source            = "./modules/IAM"
+}
+
